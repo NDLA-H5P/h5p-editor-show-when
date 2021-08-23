@@ -1,4 +1,4 @@
-H5PEditor.ShowWhen = (function ($) {
+H5PEditor.NDLAShowWhen = (function ($) {
 
   // Handler for the 'select' semantics type
   function SelectHandler(field, equals) {
@@ -150,4 +150,4 @@ H5PEditor.ShowWhen = (function ($) {
 })(H5PEditor.$);
 
 // Register widget
-H5PEditor.widgets.showWhen = H5PEditor.ShowWhen;
+H5PEditor.widgets.showWhen = H5PEditor.NDLAShowWhen;
