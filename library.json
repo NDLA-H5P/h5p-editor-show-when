@@ -1,6 +1,6 @@
 {
-  "machineName": "H5PEditor.ShowWhen",
-  "title": "Toggle visibility of a field based on rules",
+  "machineName": "H5PEditor.NDLAShowWhen",
+  "title": "NDLA Show When: Toggle visibility of a field based on rules",
   "license": "MIT",
   "author": "fnoks",
   "majorVersion": 1,

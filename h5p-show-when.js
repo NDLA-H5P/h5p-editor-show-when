@@ -1,4 +1,4 @@
-H5PEditor.ShowWhen = (function ($) {
+H5PEditor.NDLAShowWhen = (function ($) {
 
   // Handler for the 'select' semantics type
   function SelectHandler(field, equals) {
@@ -116,6 +116,7 @@ H5PEditor.ShowWhen = (function ($) {
 
     // Create the real field:
     var widgetName = config.widget || field.type;
+    console.log("widgetName", widgetName);
     var fieldInstance = new H5PEditor.widgets[widgetName](parent, field, params, setValue);
     fieldInstance.appendTo($wrapper);
 
@@ -150,4 +151,4 @@ H5PEditor.ShowWhen = (function ($) {
 })(H5PEditor.$);
 
 // Register widget
-H5PEditor.widgets.showWhen = H5PEditor.ShowWhen;
+H5PEditor.widgets.NDLAShowWhen = H5PEditor.NDLAShowWhen;

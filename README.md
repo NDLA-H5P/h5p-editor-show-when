@@ -10,7 +10,7 @@ A widget which makes it possible to make a field show or hide dependent on rules
   "label": "Max score",
   "name": "maxScore",
   "type": "number",
-  "widget": "showWhen",
+  "widget": "NDLAShowWhen",
   "showWhen": {
     "rules": [
       {
@@ -40,7 +40,7 @@ In the above example, the field will only be shown when *MultiChoice* or *TrueFa
     "type": "boolean",
     "label": "Use browser's fullscreen mode",
     "default": false,
-    "widget": "showWhen",
+    "widget": "NDLAShowWhen",
     "showWhen": {
       "rules": [
         {
@@ -59,7 +59,7 @@ In the above example, the field will only be shown when *MultiChoice* or *TrueFa
   "name": "wearWarmCap",
   "label": "When this is enabled, a warm cap should be worn",
   "type": "boolean",
-  "widget": "showWhen",
+  "widget": "NDLAShowWhen",
   "showWhen": {
     "type": "and",
     "detach": true,
@@ -103,7 +103,7 @@ In the above example, this field will only be shown when the field *timeOfYear* 
     "type": "boolean",
     "label": "Use browser's fullscreen mode",
     "default": false,
-    "widget": "showWhen",
+    "widget": "NDLAShowWhen",
     "showWhen": {
       "rules": [
         {
@@ -142,7 +142,7 @@ In the above example, this field will only be shown when the field *timeOfYear* 
         "type": "boolean",
         "label": "Use browser's fullscreen mode",
         "default": false,
-        "widget": "showWhen",
+        "widget": "NDLAShowWhen",
         "showWhen": {
           "rules": [
             {
@@ -177,7 +177,7 @@ In the above example, this field will only be shown when the field *timeOfYear* 
     "pre",
     "code"
   ],
-  "widget": "showWhen",
+  "widget": "NDLAShowWhen",
   "showWhen": {
     "rules": [
       {
