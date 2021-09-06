@@ -116,6 +116,7 @@ H5PEditor.NDLAShowWhen = (function ($) {
 
     // Create the real field:
     var widgetName = config.widget || field.type;
+    console.log("widgetName", widgetName);
     var fieldInstance = new H5PEditor.widgets[widgetName](parent, field, params, setValue);
     fieldInstance.appendTo($wrapper);
 
@@ -150,4 +151,4 @@ H5PEditor.NDLAShowWhen = (function ($) {
 })(H5PEditor.$);
 
 // Register widget
-H5PEditor.widgets.showWhen = H5PEditor.NDLAShowWhen;
+H5PEditor.widgets.NDLAShowWhen = H5PEditor.NDLAShowWhen;
